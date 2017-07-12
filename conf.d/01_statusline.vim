@@ -1,7 +1,9 @@
 " statusline.vim - configure the statusline
 "
-" make command line two lines high
-set cmdheight=2
+" make command line two lines high (except on VimR)
+if !has('gui_vimr')
+  set cmdheight=2
+endif
 
 " make the status line more informative
 set laststatus=2
