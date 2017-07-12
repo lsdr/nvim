@@ -19,6 +19,7 @@ log/*
 bundle/*
 backup/*
 plugins/*
+autoload/*
 doc/tags-ja
 
 .netrwhist
