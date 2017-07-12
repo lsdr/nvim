@@ -1,4 +1,13 @@
-## Usage
+## Pre-requisites
+
+To use this, you'll need:
+
+* [NeoVim](https://neovim.io/) (obviously) and
+* [curl](https://curl.haxx.se/)
+
+The latter is required to fetch and install [vim-plug][plug].
+
+## Installing files
 
 To setup the files for [NeoVim](https://neovim.io/):
 ```sh
@@ -17,16 +26,7 @@ This will do the following:
 
 NeoVim is ready to roll just after the `make` is done.
 
-## Pre-requisites
-
-To use this setup, you need:
-
-* Neovim (obviously) and
-* curl
-
-The latter is required to fetch and install [vim-plug][plug].
-
-## Why the symlink dance?
+## Why the Symlink dance?
 
 NeoVim follows the _XDG Base Directory Specification_, meaning that
 configuration files will live in the `$XDG_CONFIG_HOME` which, in turn, is
