@@ -9,8 +9,8 @@ if has('gui_vimr')
 else
   "enable 256 colors on terminal"
   set t_Co=256
-  set background=dark
-  colorscheme gruvbox
+  set background=light
+  colorscheme hemisu
 endif
 
 " vim: set ft=vim:
