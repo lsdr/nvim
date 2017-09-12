@@ -83,7 +83,7 @@ set incsearch
 
 " backup and swap settings
 set nobackup
-set directory=~/.vim/tmp
+set directory=~/.config/nvim/tmp
 
 " enable the matchit.vim shipped with vim
 runtime! macros/matchit.vim
