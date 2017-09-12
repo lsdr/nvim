@@ -26,19 +26,19 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Plugin 'tpope/vim-surround'
 " Plugin 'Townk/vim-autoclose'
 "
-" Plugin 'scrooloose/nerdcommenter'
-"   let NERDSpaceDelims=1
-"   let NERDMenuMode=0
-"   " always comment the whole line, no matter where the cursor is
-"   let NERDCommentWholeLinesInVMode=1
-"
+Plug 'scrooloose/nerdcommenter'
+   let NERDSpaceDelims=1
+   let NERDMenuMode=0
+   " always comment the whole line, no matter where the cursor is
+   let NERDCommentWholeLinesInVMode=1
+
 " Plugin 'terryma/vim-multiple-cursors'
 "   " Default mapping
 "   " let g:multi_cursor_next_key='<C-n>'
 "   " let g:multi_cursor_prev_key='<C-p>'
 "   " let g:multi_cursor_skip_key='<C-x>'
 "   " let g:multi_cursor_quit_key='<Esc>'
-"
-" Plugin 'editorconfig/editorconfig-vim'
-"
+
+Plug 'editorconfig/editorconfig-vim'
+
 " vim: set ft=vim:
