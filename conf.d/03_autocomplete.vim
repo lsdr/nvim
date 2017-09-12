@@ -1,10 +1,11 @@
 " autocomplete.vim - omni, code and auto complete settings
 "
-" enable syntax-based completion if lacking a better option
-set omnifunc=syntaxcomplete#Complete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  " Use deoplete, man
+  let g:deoplete#enable_at_startup=1
+  " use tab for completion
+  inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
-" no annoying preview/doc buffers
-set completeopt-=preview
+Plug 'Shougo/neco-vim'
+Plug 'eagletmt/neco-ghc' 
 
-" skip search includes for completion
-set complete-=i
