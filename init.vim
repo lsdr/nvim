@@ -89,8 +89,7 @@ set directory=~/.vim/tmp
 runtime! macros/matchit.vim
 
 " few useful shortcuts
-command! Rehash source ~/.vimrc
-command! Helptags helptags ~/.vim/doc
+command! Rehash source ~/.config/nvim/init.vim
 
 " close current buffer
 nmap <leader>x :close<cr>
