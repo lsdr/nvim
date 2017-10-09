@@ -13,6 +13,9 @@ Plug 'alx741/vim-hindent'
   " no indent on save
   let g:hindent_on_save = 0
 
+
+Plug 'eagletmt/ghcmod-vim'
+
 augroup haskellStylish
   au!
   au FileType haskell nnoremap <leader>hi :Hindent<CR>

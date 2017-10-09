@@ -7,5 +7,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 Plug 'Shougo/neco-vim'
+
 Plug 'eagletmt/neco-ghc' 
+  " Disable haskell-vim omnifunc
+  let g:haskellmode_completion_ghc = 0
+  autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 
