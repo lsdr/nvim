@@ -6,10 +6,15 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   " use tab for completion
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
+"" autocomplete for vim 
 Plug 'Shougo/neco-vim'
 
-Plug 'eagletmt/neco-ghc' 
-  " Disable haskell-vim omnifunc
-  let g:haskellmode_completion_ghc = 0
-  autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+" enable syntax-based completion if lacking a better option
+set omnifunc=syntaxcomplete#Complete
+" no annoying preview/doc buffers
+" set completeopt-=preview
+" skip search includes for completion
+" set complete-=i
+
+" vim: set ft=vim:
 
