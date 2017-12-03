@@ -7,7 +7,9 @@ Plug 'w0rp/ale'
   let g:ale_lint_on_text_changed='never'
   " list of enabled linters:
   let g:ale_linters = {
-  \   'haskel': ['stack-ghc-mod', 'hlint'],
+  \   'elixir': ['credo'],
+  \   'elm': ['elm-format', 'elm-make'],
+  \   'haskell': ['stack-ghc-mod', 'hlint'],
   \   'ruby': ['rubocop', 'ruby'],
   \}
 
