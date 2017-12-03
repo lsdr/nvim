@@ -1,4 +1,4 @@
-" elixir.vim - support for Elixir
+" support for elixir frameworks and related tools 
 "
 Plug 'elixir-lang/vim-elixir'
 

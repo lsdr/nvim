@@ -20,8 +20,8 @@ Plug 'ctrlpvim/ctrlp.vim'
     let g:ctrlp_use_caching=0
   endif
 
-" Plugin 'wincent/ferret'
-"   let g:FerretHlsearch=1
+Plug 'wincent/ferret'
+  let g:FerretHlsearch=1
 "
 " Plugin 'tpope/vim-surround'
 " Plugin 'Townk/vim-autoclose'
@@ -40,5 +40,6 @@ Plug 'scrooloose/nerdcommenter'
 "   " let g:multi_cursor_quit_key='<Esc>'
 
 Plug 'editorconfig/editorconfig-vim'
+Plug 'tpope/vim-projectionist'
 
 " vim: set ft=vim:
