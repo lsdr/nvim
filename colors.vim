@@ -8,7 +8,7 @@ if has('gui_vimr')
 else
   set termguicolors
   set background=dark
-  colorscheme space-vim-dark
+  colorscheme onedark
 endif
 
 " vim: set ft=vim:
