@@ -23,11 +23,19 @@ let g:haskell_indent_let_no_in=0
 
 
 "" elm support (ElmCast/elm-vim)
-let g:elm_format_autosave = 1
-let g:elm_detailed_complete = 1
-let g:elm_syntastic_show_warnings = 1
-let g:elm_format_fail_silently = 1
-let g:elm_browser_command = 'open'
-let g:elm_make_show_warnings = 1
-let g:elm_setup_keybindings = 1
+let g:elm_format_autosave=1
+let g:elm_detailed_complete=1
+let g:elm_syntastic_show_warnings=1
+let g:elm_format_fail_silently=1
+let g:elm_browser_command='open'
+let g:elm_make_show_warnings=1
+let g:elm_setup_keybindings=1
+
+
+"" rust support (rust-lang/rust.vim)
+let g:rustfmt_autosave=1
+
+
+"" markdown (plasticboy/vim-markdown)
+let g:vim_markdown_folding_disabled=1
 
