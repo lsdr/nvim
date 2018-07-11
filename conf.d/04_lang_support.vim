@@ -36,6 +36,15 @@ let g:elm_setup_keybindings=1
 let g:rustfmt_autosave=1
 
 
+"" python support (vim-python/python-syntax)
+let g:python_highlight_class_vars=1
+let g:python_highlight_indent_errors=1
+
+
+"" terraform support (hashivim/vim-terraform)
+let g:terraform_align=1
+
+
 "" markdown (plasticboy/vim-markdown)
 let g:vim_markdown_folding_disabled=1
 
