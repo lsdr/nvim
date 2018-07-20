@@ -103,4 +103,8 @@ map <down>  <C-w>j
 map <right> <C-w>l
 map <left>  <C-w>h
 
+" disable neovim python2/nodejs providers
+let g:loaded_python_provider=1
+let g:loaded_node_provider=1
+
 " vim: set ft=vim:
