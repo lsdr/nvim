@@ -15,6 +15,6 @@ Plug 'w0rp/ale'
   \   'elm': ['elm-format', 'elm-make'],
   \   'haskell': ['stack-ghc-mod', 'hlint'],
   \   'ruby': ['rubocop', 'ruby'],
-  \   'python': ['flake8', 'pycodestyle', 'mypy', 'pylint'],
+  \   'python': ['pycodestyle', 'mypy', 'pylint'],
   \}
 
