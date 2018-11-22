@@ -13,6 +13,7 @@ Plug 'w0rp/ale'
   let g:ale_linters = {
   \   'elixir': ['credo', 'mix'],
   \   'elm': ['elm-format', 'elm-make'],
+  \   'go': ['gofmt', 'goimports', 'golint'],
   \   'haskell': ['stack-ghc-mod', 'hlint'],
   \   'ruby': ['rubocop', 'ruby'],
   \   'python': ['pycodestyle', 'mypy', 'pylint'],
