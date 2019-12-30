@@ -59,6 +59,25 @@ Digits are used according to the following (very arbitrary) convention:
 * `90-99` plugins, trackers, tools, fun stuff; everything in this range can be
   removed and no one would notice
 
+
+### Troubleshooting
+* Found an existing $(path to nvim) exiting
+  > You can clean existing configurations: `make clean`
+
+* Installing hung on snap
+ > It happens if you no have python module `neovim`. In this case, 
+>You no need clean projects. Open your nvim in a different terminal. 
+>Press  `:checkhealth`. See problems in providers. 
+>Install module   
+>`pip install neovim`.  
+>After reinstall plugins   
+>open nvim  
+:PlugInstall  
+:UpdateRemotePlugins  
+> You can see plugins where you hang.   
+>Disable them by `:PlugClean`
+>
+
 :mahjong:
 
 
