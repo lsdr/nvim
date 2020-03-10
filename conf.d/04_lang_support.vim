@@ -42,5 +42,5 @@ Plug 'sheerun/vim-polyglot'
   let g:vim_markdown_folding_disabled=1
 
 
-Plug 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
+" Plug 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 
