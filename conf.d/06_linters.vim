@@ -1,6 +1,6 @@
 " linters.vim - setup for linters, syntax checkers and the like
 "
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
   " enable airline integration
   let g:airline#extensions#ale#enabled=1
   " do not lint when editing, only on save/enter/normal-mode
@@ -13,9 +13,10 @@ Plug 'w0rp/ale'
   let g:ale_linters = {
   \   'elixir': ['credo', 'mix'],
   \   'elm': ['elm-format', 'elm-make'],
-  \   'go': ['gofmt', 'goimports', 'golint'],
   \   'haskell': ['stack-ghc-mod', 'hlint'],
-  \   'ruby': ['rubocop', 'ruby'],
+  \   'ruby': ['rubocop', 'ruby', 'reek'],
+  \   'rust': ['rustfmt', 'cargo'],
   \   'python': ['pycodestyle', 'mypy', 'pylint'],
+  \   'terraform': ['fmt'],
   \}
 
