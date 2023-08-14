@@ -4,8 +4,9 @@ To use this, you'll need:
 
 * [NeoVim](https://neovim.io/) (obviously) and
 * [curl](https://curl.haxx.se/)
+* Python (+3.6) with [pynvim](https://github.com/neovim/pynvim) installed
 
-The latter is required to fetch and install [vim-plug][plug].
+The `curl` is required to fetch and install [vim-plug][plug].
 
 ## Installing files
 
@@ -63,20 +64,6 @@ Digits are used according to the following (very arbitrary) convention:
 ### Troubleshooting
 * Found an existing $(path to nvim) exiting
   > You can clean existing configurations: `make clean`
-
-* Installing hung on snap
- > It happens if you no have python module `neovim`. In this case, 
->You no need clean projects. Open your nvim in a different terminal. 
->Press  `:checkhealth`. See problems in providers. 
->Install module   
->`pip install neovim`.  
->After reinstall plugins   
->open nvim  
-:PlugInstall  
-:UpdateRemotePlugins  
-> You can see plugins where you hang.   
->Disable them by `:PlugClean`
->
 
 :mahjong:
 
