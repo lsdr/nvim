@@ -9,7 +9,7 @@ augroup haskellStylish
   au FileType haskell nnoremap <leader>hi :Hindent<CR>
 augroup END
 
-Plug 'eagletmt/ghcmod-vim', { 'for': ['haskell'] }
+" Plug 'eagletmt/ghcmod-vim', { 'for': ['haskell'] }
 
 "" autocomplete for haskell
 Plug 'eagletmt/neco-ghc', { 'for': ['haskell'] }

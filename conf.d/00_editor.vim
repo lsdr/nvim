@@ -43,4 +43,6 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-projectionist'
 
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
 " vim: set ft=vim:
