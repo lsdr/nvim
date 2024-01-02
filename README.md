@@ -12,8 +12,8 @@ The `curl` is required to fetch and install [vim-plug][plug].
 
 To setup the files for [NeoVim](https://neovim.io/):
 ```sh
-    $ git clone git@github.com:lsdr/nvim.git nvim
-    $ make install
+$ git clone git@github.com:lsdr/nvim.git nvim
+$ make install
 ```
 
 This will do the following:
