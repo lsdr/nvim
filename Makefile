@@ -30,7 +30,7 @@ tmpdir pluginsdir:
 
 init_bundle:
 	@printf "Fetching and installing vim-plug...\n";
-	CURL -fLo $(NEOVIM_HOME)/autoload/plug.vim --create-dirs \
+	$(CURL) -fLo $(NEOVIM_HOME)/autoload/plug.vim --create-dirs \
 		$(PLUG_REMOTE_URL) 2> /dev/null
 
 load_bundle: init_bundle

@@ -105,7 +105,7 @@ map <left>  <C-w>h
 
 " disable neovim python2/nodejs providers
 let g:loaded_python_provider=1
-let g:python3_host_prog='/usr/bin/python3.10'
+let g:python3_host_prog='/usr/bin/python'
 let g:loaded_node_provider=1
 
 " vim: set ft=vim:
