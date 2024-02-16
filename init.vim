@@ -108,4 +108,13 @@ let g:loaded_python_provider=1
 let g:python3_host_prog='/usr/bin/python'
 let g:loaded_node_provider=1
 
+" neovide-specific settings
+" https://neovide.dev/configuration.html
+if exists('g:neovide')
+  let g:neovide_scale_factor = 1.0
+  let g:neovide_cursor_animation_length = 0
+  let g:neovide_fullscreen = v:true
+  let g:neovide_hide_mouse_when_typing = v:true
+endif
+
 " vim: set ft=vim:
